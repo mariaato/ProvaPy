@@ -3,7 +3,7 @@ pilhaAuxiliar = []
 
 while True:
     print ("\n")
-    valor = input("Digite a opção 1 para adicionar, 2 para 'Control + Z', 3 para 'Control Y' e 0 para encerrar: ")
+    valor = input("Digite a opção: \n1) Para adicionar \n2) Para 'Control + Z' \n3) para 'Control + Y' \n0) Para encerrar\n ")
     
     match valor:
         case "0":
